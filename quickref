@@ -1,0 +1,6 @@
+https://awspolicygen.s3.amazonaws.com/policygen.html 
+    --- Not necessary bucket policy will accept it as it is.  For some action , it will validate persence of parameters
+    --- Also /* suffix must be provided for resource path
+aws s3api list-buckets  --profile s3userbucket or aws s3api list-buckets 
+aws s3 ls s3://apihacklogvimal
+aws s3api create-bucket --bucket testbucketvimal1902a
